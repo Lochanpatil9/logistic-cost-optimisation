@@ -24,7 +24,7 @@ The network's 4 warehouses dispatch shipments to 40 stores using 3 vehicle types
    - a weekly cap on Medium/Mini Truck availability per warehouse (owned fleet is limited; LCV can be hired on-demand as a flexible fallback) — this reflects a realistic constrained rollout rather than an unconstrained "use the cheapest truck everywhere" result (which would overstate savings at ~28%)
    - See `excel/Logistics_Route_Optimization_Model.xlsx` — the `Solver_Model` sheet is a fully interactive, re-solvable example (one warehouse-week, 8 routes); `Results_Summary` rolls this up across all 157 routes in the network.
 
-3. **Dashboard (Tableau)** — cost/km trend, route-level savings, and on-time delivery tracking. Build guide + ready-to-load extracts in `tableau/`. On-time delivery rate came out to ~31% in this sample — flagged as a separate, urgent finding outside the scope of the cost-optimization ask.
+3. **Dashboard (Tableau)** — cost/km trend, route-level savings, and on-time delivery tracking. Build guide + ready-to-load extracts in `https://public.tableau.com/app/profile/lochan.patil1524/viz/logisticcostoptimization/Dashboard1?publish=yes`. On-time delivery rate came out to ~31% in this sample — flagged as a separate, urgent finding outside the scope of the cost-optimization ask.
 
 ## Repo structure
 ```
