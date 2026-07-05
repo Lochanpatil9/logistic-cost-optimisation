@@ -1,0 +1,9 @@
+store_id,store_city,order_date,total_weight_kg,distance_km,habitual_mode,current_cost_recalc
+ST-004,Jabalpur,2024-08-28,855.5,395.9,LCV,14648.3
+ST-007,Indore,2024-08-27,433.3,641.2,Medium Truck,37189.600000000006
+ST-009,Vidisha,2024-08-29,671.4000000000001,537.8,LCV,19898.6
+ST-012,Chhindwara,2024-08-28,1110.5,589.45,Medium Truck,34188.100000000006
+ST-016,Chhindwara,2024-09-01,916.7,268.4,LCV,9930.8
+ST-026,Satna,2024-08-29,287.1,491.2,LCV,18174.4
+ST-031,Jabalpur,2024-08-27,571.3,260.9,Medium Truck,15132.2
+ST-038,Dewas,2024-08-26,589.3,292.3,Mini Truck,7015.200000000001
