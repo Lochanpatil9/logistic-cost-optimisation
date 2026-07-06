@@ -26,6 +26,14 @@ The network's 4 warehouses dispatch shipments to 40 stores using 3 vehicle types
 
 3. **Dashboard (Tableau)** — cost/km trend, route-level savings, and on-time delivery tracking. Build guide + ready-to-load extracts in `https://public.tableau.com/app/profile/lochan.patil1524/viz/logisticcostoptimization/Dashboard1?publish=yes`. On-time delivery rate came out to ~31% in this sample — flagged as a separate, urgent finding outside the scope of the cost-optimization ask.
 
+## Dashboard Preview
+ 
+![Logistics Cost Optimization Dashboard](dashboard_screenshot.png)
+ 
+**Live interactive version:** [https://public.tableau.com/app/profile/lochan.patil1524/viz/logisticcostoptimization/Dashboard1?publish=yes]
+ 
+The dashboard tracks 4 views: cost/km trend by warehouse, current-vs-optimized cost per warehouse, on-time delivery rate over time (with average reference line), and route-level savings by store — sorted to surface the highest-impact routes first.
+
 ## Repo structure
 ```
 data/           raw + cleaned CSVs, route-level and day-level optimization results
